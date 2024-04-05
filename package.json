@@ -1,0 +1,25 @@
+{
+	"name": "mein-gutenberg-plugin",
+	"version": "1.0.0",
+	"description": "Ein Gutenberg-Block-Plugin für WordPress",
+	"main": "index.php",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start"
+	},
+	"author": "Ihr Name",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"@babel/preset-env": "^7.16.0",
+		"@babel/preset-react": "^7.16.0",
+		"@wordpress/blocks": "^12.32.0",
+		"@wordpress/i18n": "^4.55.0",
+		"babel-loader": "^8.2.3",
+		"webpack": "^5.67.0",
+		"webpack-cli": "^4.9.0"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.6.0"
+	},
+	"keywords": []
+}
