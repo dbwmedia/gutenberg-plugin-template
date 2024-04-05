@@ -1,1 +1,18 @@
+# Dependency directories
 node_modules/
+vendor/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional vscode directory
+.vscode/
+
+# Optional macOS directory
+.DS_Store
+
+# Optional thumbnails created by windows
+Thumbs.db
+
+# Optional files created by JetBrains IDEs
+.idea/
