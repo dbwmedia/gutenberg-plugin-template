@@ -19,6 +19,39 @@ After installing and activating, you can:
 - Add a new "Hello World" block to the content of your posts and pages.
 - View and customize the block within the Gutenberg editor.
 
+## Development
+
+To set up a development environment and start working on the plugin, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/dbwmedia/gutenberg-plugin-template.git
+   ```
+
+2. Navigate to the plugin directory:
+
+   ```bash
+   cd gutenberg-plugin-template
+   ```
+
+3. Install the required node modules:
+
+   ```bash
+   npm install
+   ```
+
+4. To start the development build process with file watching, run:
+
+   ```bash
+   npm start
+   ```
+
+5. To create a production build, run:
+   ```bash
+   npm run build
+   ```
+
 ## Developer
 
 This plugin was developed by Dennis Buchwald, the founder of DBW Media, an agency specializing in WordPress solutions. Visit us at [DBW Media Website](https://dbwmedia.de) for more information and other projects.
